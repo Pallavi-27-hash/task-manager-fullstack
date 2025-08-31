@@ -10,7 +10,7 @@ import { addThousandsSeparator } from '../../utils/helper';
 import InfoCard from '../../components/Cards/InfoCard';
 import { LuArrowRight } from 'react-icons/lu';
 import TaskListTable from '../../components/TaskListTable';
-import CustomPiechart from '../../components/charts/CustomPiechart';
+import CustomPiechart from '../../components/charts/CustomPieChart';
 import CustomBarChart from '../../components/charts/CustomBarChart';
 import ErrorBoundary from '../../components/charts/ErrorBoundary';
 
