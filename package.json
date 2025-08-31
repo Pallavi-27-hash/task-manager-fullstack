@@ -1,0 +1,12 @@
+{
+  "name": "task-manager-fullstack",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "install": "cd backend && npm install",
+    "build": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
