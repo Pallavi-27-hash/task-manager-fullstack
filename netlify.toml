@@ -1,0 +1,14 @@
+[build]
+  publish = "frontend/Task-Manager/dist"
+  command = "cd frontend/Task-Manager && npm install && npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production.environment]
+  VITE_API_URL = "https://task-manager-backend.up.railway.app"
